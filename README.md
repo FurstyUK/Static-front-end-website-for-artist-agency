@@ -1,8 +1,3 @@
-/project-folder
-  /css
-    - styles.css
-  /images
-  index.html
-  about.html
-  contact.html
-  README.md
+# Artist Agency Website
+
+This is a "Static front end website" built to suit the needs of a Artist Agency.
