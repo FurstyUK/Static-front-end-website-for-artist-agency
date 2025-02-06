@@ -16,5 +16,4 @@ External Source's that I used:
 - https://placehold.co to make the placeholder imgaes look cleaner and iformative of the size of image the user would need to us.
 - De-bugging code errors i couldnt understandand from my Farther who is a software engineer.
 - Stream deck. I set up multiple keybinds to write quicker and easier, each base ie. <a> would have the basic code needed allowing me to put the fill code in once ive pressed the according button on my deck.
-
-- 
+- I used jsdelivr.net for boostrapping. 
