@@ -5,11 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book an Artist</title>
     
-    <!-- Link to Bootstrap CSS (CDN) -->
+    <!-- Link for your Bootstrap CSS (CDN) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     
-    <!-- Link to your custom styles.css -->
+    <!-- Link for your custom styles.css -->
     <link rel="stylesheet" href="styles.css"> <!-- or "css/styles.css" if placed inside a 'css' folder -->
+
+    <style>
+        /* Footer Styles */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 15px;
+        }
+
+  
+        .Artistroster {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #ffffff;
+            text-align: left;
+            padding: 10px 20px;
+            font-size: 15px;
+        }
+
+    </style>
+
 </head>
 
 
@@ -84,9 +112,9 @@
      
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
-  </html>
   
 
+  <!-- Artist booking form-->
     <section class="container my-5">
         <h2 class="text-center">Book an Artist</h2>
         <form class="p-4 border rounded bg-light">
@@ -109,11 +137,44 @@
             <button type="submit" class="btn btn-primary w-100">Submit Booking</button>
         </form>
     </section>
+
+    
+
+    <!-- Artist Roster Subtitle -->
+     
+<div class="container text-center mt-4">
+    <h3 class="text-muted">Artist Roster</h3>
+</div>
+
+    <section     class=".footer">
+      
+              <!-- Artist 3 learn more-->
+              <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://placehold.co/300x200" class="card-img-top" alt="Artist 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Artist Name 3</h5>
+                        <p class="card-text">A more in depth description of Artist 3. Famous for their passion and dedication to the arts.</p>
+                         <!-- Book now -->
+                         <a href="booking.html" class="btn btn-primary w-100">Book now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+
+
     
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2025 Artist Agency. All Rights Reserved.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    </body>
+    </html>
+
