@@ -12,6 +12,7 @@ Technologies that I used:
 
 External Source's that I used:
 
+- I used Visual Studio Code to write and test this.
 - Source material how to implement the above technolgies from CodeInstitute Web development course.
 - https://placehold.co to make the placeholder imgaes look cleaner and iformative of the size of image the user would need to us.
 - De-bugging code errors i couldnt understandand from my Farther who is a software engineer.
