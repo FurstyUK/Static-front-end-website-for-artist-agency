@@ -2,6 +2,10 @@
 
 # This is a "Static front end website" built to suit the needs of a Artist Agency.
 
+## Live Demo of site
+
+- https://furstyuk.github.io/Static-front-end-website-for-artist-agency/
+
 ## Features
 
 ### Existing Features
@@ -29,6 +33,8 @@
 * HTML
 * CSS
 * Bootstrapping
+* GitHub
+* GitHub Pages
 
 ## Credit for external Source's that I used
 
