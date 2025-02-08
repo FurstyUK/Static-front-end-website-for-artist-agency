@@ -1,6 +1,6 @@
-#Static Front End Website, User focus is for "Artist Agency's" 
+# Static Front End Website, User focus is for "Artist Agency's" 
 
-#This is a "Static front end website" built to suit the needs of a Artist Agency.
+# This is a "Static front end website" built to suit the needs of a Artist Agency.
 
 Technologies that I used:
 * HTML
