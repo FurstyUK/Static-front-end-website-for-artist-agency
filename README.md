@@ -14,3 +14,8 @@ External Source's that I used:
 * De-bugging code errors i couldnt understandand from my Farther who is a software engineer.
 * Stream deck. I set up multiple keybinds to write quicker and easier, each base ie. <a> would have the basic code needed allowing me to put the fill code in once ive pressed the according button on my deck.
 * I used ![jsdelivr.net] for boostrapping. 
+
+
+Wireframe used:
+
+![image](https://github.com/user-attachments/assets/568d5099-4824-4beb-adab-a988b106a967)
