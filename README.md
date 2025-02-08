@@ -13,7 +13,8 @@
 
 - Forms
   Booking and joining form's cover's multiple visitor demographics.
-  ### Forms shown bellow
+
+### Forms shown bellow
 
 - Artist booking section
 
@@ -24,12 +25,12 @@
 
 - Examples or links to feautured work from your artist roster.
 
-### Technologies that I used
+## Technologies that I used
 * HTML
 * CSS
 * Bootstrapping
 
-### External Source's that I used
+## Credit for external Source's that I used
 
 * Source material how to implement the above technolgies from CodeInstitute Web development course.
 * ![https://placehold.co] to make the placeholder imgaes look cleaner and iformative of the size of image the user would need to us.
