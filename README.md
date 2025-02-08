@@ -18,4 +18,4 @@ External Source's that I used:
 
 Wireframe used:
 
-![image](https://github.com/user-attachments/assets/568d5099-4824-4beb-adab-a988b106a967)
+![image](https://github.com/user-attachments/assets/cbc98692-131f-426b-bb6e-bece76db3c0b)
