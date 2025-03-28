@@ -34,8 +34,43 @@ form {
     margin: 0 auto;
 }
 
+/* Artist Roster (from booking.html) */
+.Artistroster {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
 /* Footer */
 footer {
-    margin-top: 50px;
-    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center; /* Adjust to 'left' for join.html if desired */
+    padding: 10px 20px; /* Consistent with booking.html */
+    font-size: 15px; /* Consistent with booking.html; adjust to 20px for join.html if preferred */
+    margin-top: 0; /* Overrides the original 50px due to fixed positioning */
+}
+
+/* Address and Contact (from join.html) */
+.address-contact {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Visually hidden but accessible to screen readers */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
