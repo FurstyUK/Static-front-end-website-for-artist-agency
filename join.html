@@ -1,89 +1,107 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
+    <!-- Character encoding and responsive meta tag for device compatibility -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title displayed in the browser tab -->
     <title>Join Artist Agency</title>
-    
-    <!-- Link to Bootstrap CSS (CDN) -->
+
+    <!-- Bootstrap CSS for styling and responsive design -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    
-    <!-- Link to your custom styles.css -->
-    <link rel="stylesheet" href="styles.css"> <!-- or "css/styles.css" if placed inside a 'css' folder -->
-    <style>
-        /* Footer Styles */
-        .footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background-color: #f1f1f1;
-            text-align: left;
-            padding: 10px 20px;
-            font-size: 20px;
-        }
-         /* Registered Address and Contact Numbers */
-         .address-contact {
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #f1f1f1;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-         }
-       
-    </style>
+
+    <!-- Link to custom CSS file for additional styles -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigationbar (same as on the landing page) -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Navigation Bar (Navbar) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Main navigation">
         <div class="container">
+            <!-- Brand logo linked to the homepage -->
             <a class="navbar-brand" href="index.html">Artist Agency</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+            <!-- Button to toggle the navigation menu on smaller screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Collapsible section for navigation links -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="booking.html">Book an Artist</a></li>
-                    <li class="nav-item"><a class="nav-link" href="join.html">Join Us</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a> <!-- Link to Home Page -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Book an Artist</a> <!-- Link to Booking Page -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="join.html">Join Us</a> <!-- Link to Join Page -->
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    
-    <!-- Page-specific content goes here -->
-    <section class="container my-5">
-        <h2 class="text-center">Join Our Agency</h2>
-        <form class="p-4 border rounded bg-light">
+
+    <!-- Join Agency Section -->
+    <section class="container my-5" aria-labelledby="join-heading">
+        <h2 id="join-heading" class="text-center">Join Our Agency</h2>
+        <!-- Form for Artist Applications -->
+        <form class="p-4 border rounded bg-light" aria-labelledby="join-heading">
+            <!-- Input for Artist Name -->
             <div class="mb-3">
                 <label for="artist-name" class="form-label">Artist Name</label>
-                <input type="text" class="form-control" id="artist-name" required>
+                <input type="text" class="form-control" id="artist-name" required aria-required="true">
             </div>
+            <!-- Input for Artist's Email -->
             <div class="mb-3">
                 <label for="email" class="form-label">Your Email</label>
-                <input type="email" class="form-control" id="email" required>
+                <input type="email" class="form-control" id="email" required aria-required="true">
             </div>
+            <!-- Input for Genre/Artistic Style -->
             <div class="mb-3">
                 <label for="genre" class="form-label">Genre</label>
-                <input type="text" class="form-control" id="genre" required>
+                <input type="text" class="form-control" id="genre" required aria-required="true">
             </div>
+            <!-- Submit Button to Apply -->
             <button type="submit" class="btn btn-primary w-100">Apply Now</button>
         </form>
     </section>
-   
-  <!-- address and contact area for user company info -->
-  <div class="address-contact">
-    <p>Registered Company Address: 123 Example St, City, Country</p>
-    <p>"country of buisness origin numbers: 0121 121 0121</p>
-    <p>International Contact Numbers: +123 456 7890 | +987 654 3210</p>
-    <p>Careers Engquiries: Via email | yourangency@mywebsite.co.uk</p>
-</div>
 
-<footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Artist Agency. All Rights Reserved.</p>
-</footer>
+    <!-- Contact Information Section -->
+    <section class="container my-5" aria-labelledby="contact-heading">
+        <h3 id="contact-heading" class="visually-hidden">Contact Information</h3>
+        <div class="address-contact">
+            <!-- Company Address -->
+            <p>Registered Company Address: 123 Example St, City, Country</p>
+            <!-- Business Origin Contact Numbers -->
+            <p>Country of Business Origin Numbers: 0121 121 0121</p>
+            <!-- International Contact Numbers -->
+            <p>International Contact Numbers: +123 456 7890 | +987 654 3210</p>
+            <!-- Contact for Career Enquiries (Email Protection Included) -->
+            <p>Careers Enquiries: Via email | 
+                <a href="/cdn-cgi/l/email-protection" class="__cf_email__" 
+                    data-cfemail="a77e8892958689808289849ea77a9e908285948e9382c98488c9928c" 
+                    target="_blank" rel="noopener noreferrer" aria-label="Email us for career enquiries">
+                    [email&#160;protected]
+                </a>
+            </p>
+        </div>
+    </section>
 
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2025 Artist Agency. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Cloudflare Script for Email Protection -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+
+    <!-- Bootstrap JavaScript for interactive components -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+   
 </body>
 </html>
