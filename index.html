@@ -1,109 +1,120 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
+    <!-- Character encoding and responsive meta tag for compatibility across devices -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title displayed on the browser tab -->
     <title>Artist Agency</title>
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS for responsive design and pre-styled components -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
-    <!-- Custom Styles -->
+    <!-- Link to custom CSS file for additional styles -->
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Navigation Bar (Navbar) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Main navigation">
         <div class="container">
+            <!-- Brand name linked to the homepage -->
             <a class="navbar-brand" href="index.html">Artist Agency</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+            <!-- Button to toggle navigation menu on smaller screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Collapsible section for navigation links -->
             <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Navigation menu aligned to the right -->
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="booking.html">Book an Artist</a></li>
-                    <li class="nav-item"><a class="nav-link" href="join.html">Join Us</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a> <!-- Link to Home Page -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html">Book an Artist</a> <!-- Link to Booking Page -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="join.html">Join Us</a> <!-- Link to Join Page -->
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    
+
+    <!-- Header Section -->
     <header class="bg-primary text-white text-center py-5">
+        <!-- Main heading and subheading -->
         <h1>Welcome to Artist Agency</h1>
         <p>Connecting top artists with the world</p>
     </header>
 
-    <section class="container my-5 text-center">
-        <h2 class="mb-4">Explore Our Services</h2>
+    <!-- Services Section -->
+    <section class="container my-5 text-center" aria-labelledby="services-heading">
+        <h2 id="services-heading" class="mb-4">Explore Our Services</h2>
         <div class="row g-4">
+            <!-- Button to book an artist -->
             <div class="col-md-6">
                 <a href="booking.html" class="btn btn-primary btn-lg w-100 py-3">Book an Artist</a>
             </div>
+            <!-- Button to join the agency -->
             <div class="col-md-6">
                 <a href="join.html" class="btn btn-secondary btn-lg w-100 py-3">Join Our Agency</a>
             </div>
         </div>
     </section>
-    
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-
-
-  <!-- Showcase of Example Artists -->
-  <section class="container my-5">
-    <h2 class="text-center mb-4">Featured Artists</h2>
-    <div class="row g-4">
-        <!-- Artist 1 -->
-        <div class="col-md-4">
-            <div class="card shadow-sm">
-                <img src="https://placehold.co/300x200" class="card-img-top" alt="Artist 1">
-                <div class="card-body">
-                    <h5 class="card-title">Artist Name 1</h5>
-                    <p class="card-text">A brief description of Artist 1. Known for their unique style and amazing performances.</p>
-                     <!-- Learn More Button -->
-                     <a href="booking.html" class="btn btn-primary w-100">Learn More</a>
+    <!-- Featured Artists Section -->
+    <section class="container my-5" aria-labelledby="artists-heading">
+        <h2 id="artists-heading" class="text-center mb-4">Featured Artists</h2>
+        <div class="row g-4">
+            <!-- Card for Artist 1 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://placehold.co/300x200" class="card-img-top" alt="Artist 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Artist Name 1</h5>
+                        <p class="card-text">A brief description of Artist 1. Known for their unique style and amazing performances.</p>
+                        <a href="booking.html" class="btn btn-primary w-100">Learn More</a>
+                    </div>
                 </div>
             </div>
-        </div>
-
-   <!-- Artist 2 -->
-   <div class="col-md-4">
-    <div class="card shadow-sm">
-        <img src="https://placehold.co/300x200" class="card-img-top" alt="Artist 2">
-        <div class="card-body">
-            <h5 class="card-title">Artist Name 2</h5>
-            <p class="card-text">A brief description of Artist 2. Renowned for their creativity and artistic innovation.</p>
-             <!-- Learn More Button -->
-             <a href="booking.html" class="btn btn-primary w-100">Learn More</a>
-        </div>
-    </div>
-</div>
-
-
-            <!-- Artist 3 -->
+            <!-- Card for Artist 2 -->
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://placehold.co/300x200" class="card-img-top" alt="Artist 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Artist Name 2</h5>
+                        <p class="card-text">A brief description of Artist 2. Renowned for their creativity and artistic innovation.</p>
+                        <a href="booking.html" class="btn btn-primary w-100">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card for Artist 3 -->
             <div class="col-md-4">
                 <div class="card shadow-sm">
                     <img src="https://placehold.co/300x200" class="card-img-top" alt="Artist 3">
                     <div class="card-body">
                         <h5 class="card-title">Artist Name 3</h5>
                         <p class="card-text">A brief description of Artist 3. Famous for their passion and dedication to the arts.</p>
-                         <!-- Learn More Button -->
-                         <a href="booking.html" class="btn btn-primary w-100">Learn More</a>
+                        <a href="booking.html" class="btn btn-primary w-100">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-<!-- Copy right repeated on all pages -->
+
+    <!-- Footer Section -->
     <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 Artist Agency. All Rights Reserved.</p>
+        <p>© 2025 Artist Agency. All Rights Reserved.</p>
     </footer>
 
+    <!-- Bootstrap JavaScript for interactivity (like navbar toggle) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    
 </body>
 </html>
-
