@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Character encoding and responsive meta tag for device compatibility -->
+    <!-- Character encoding and responsive meta tag for compatibility across devices -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Title displayed in the browser tab -->
-    <title>Join Artist Agency</title>
+    <!-- Title displayed on the browser tab -->
+    <title>Book an Artist</title>
 
-    <!-- Bootstrap CSS for styling and responsive design -->
+    <!-- Bootstrap CSS for responsive design and pre-styled components -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
     <!-- Link to custom CSS file for additional styles -->
@@ -18,10 +18,10 @@
     <!-- Navigation Bar (Navbar) -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Main navigation">
         <div class="container">
-            <!-- Brand logo linked to the homepage -->
+            <!-- Brand name linked to the homepage -->
             <a class="navbar-brand" href="index.html">Artist Agency</a>
 
-            <!-- Button to toggle the navigation menu on smaller screens -->
+            <!-- Button to toggle navigation menu on smaller screens -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
                 aria-label="Toggle navigation">
@@ -45,49 +45,89 @@
         </div>
     </nav>
 
-    <!-- Join Agency Section -->
-    <section class="container my-5" aria-labelledby="join-heading">
-        <h2 id="join-heading" class="text-center">Join Our Agency</h2>
-        <!-- Form for Artist Applications -->
-        <form class="p-4 border rounded bg-light" aria-labelledby="join-heading">
-            <!-- Input for Artist Name -->
-            <div class="mb-3">
-                <label for="artist-name" class="form-label">Artist Name</label>
-                <input type="text" class="form-control" id="artist-name" required aria-required="true">
+    <!-- Featured Artists Section -->
+    <section class="container my-5" aria-labelledby="featured-artists-heading">
+        <h2 id="featured-artists-heading" class="text-center mb-4">Featured Artists</h2>
+        <div class="row g-4">
+            <!-- Artist 1 Card -->
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://placehold.co/300x200" class="card-img-top" alt="Artist 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Artist Name 1</h5>
+                        <p class="card-text">A brief description of Artist 1. Known for their unique style and amazing performances.</p>
+                        <a href="booking.html" class="btn btn-primary w-100">Learn More</a>
+                    </div>
+                </div>
             </div>
-            <!-- Input for Artist's Email -->
+            <!-- Artist 2 Card -->
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://placehold.co/300x200" class="card-img-top" alt="Artist 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Artist Name 2</h5>
+                        <p class="card-text">A brief description of Artist 2. Renowned for their creativity and artistic innovation.</p>
+                        <a href="booking.html" class="btn btn-primary w-100">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Artist 3 Card -->
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://placehold.co/300x200" class="card-img-top" alt="Artist 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Artist Name 3</h5>
+                        <p class="card-text">A brief description of Artist 3. Famous for their passion and dedication to the arts.</p>
+                        <a href="booking.html" class="btn btn-primary w-100">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section class="container my-5" aria-labelledby="booking-heading">
+        <h2 id="booking-heading" class="text-center">Book an Artist</h2>
+        <form class="p-4 border rounded bg-light" aria-labelledby="booking-heading">
+            <!-- Input for User's Name -->
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" required aria-required="true">
+            </div>
+            <!-- Input for User's Email -->
             <div class="mb-3">
                 <label for="email" class="form-label">Your Email</label>
                 <input type="email" class="form-control" id="email" required aria-required="true">
             </div>
-            <!-- Input for Genre/Artistic Style -->
+            <!-- Dropdown to Select Artist -->
             <div class="mb-3">
-                <label for="genre" class="form-label">Genre</label>
-                <input type="text" class="form-control" id="genre" required aria-required="true">
+                <label for="artist" class="form-label">Select Artist</label>
+                <select class="form-control" id="artist" aria-label="Choose an artist">
+                    <option>Artist Name 1</option>
+                    <option>Artist Name 2</option>
+                    <option>Artist Name 3</option>
+                </select>
             </div>
-            <!-- Submit Button to Apply -->
-            <button type="submit" class="btn btn-primary w-100">Apply Now</button>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary w-100">Submit Booking</button>
         </form>
     </section>
 
-    <!-- Contact Information Section -->
-    <section class="container my-5" aria-labelledby="contact-heading">
-        <h3 id="contact-heading" class="visually-hidden">Contact Information</h3>
-        <div class="address-contact">
-            <!-- Company Address -->
-            <p>Registered Company Address: 123 Example St, City, Country</p>
-            <!-- Business Origin Contact Numbers -->
-            <p>Country of Business Origin Numbers: 0121 121 0121</p>
-            <!-- International Contact Numbers -->
-            <p>International Contact Numbers: +123 456 7890 | +987 654 3210</p>
-            <!-- Contact for Career Enquiries (Email Protection Included) -->
-            <p>Careers Enquiries: Via email | 
-                <a href="/cdn-cgi/l/email-protection" class="__cf_email__" 
-                    data-cfemail="a77e8892958689808289849ea77a9e908285948e9382c98488c9928c" 
-                    target="_blank" rel="noopener noreferrer" aria-label="Email us for career enquiries">
-                    [email&#160;protected]
-                </a>
-            </p>
+    <!-- Artist Roster Section -->
+    <section class="container my-5 Artistroster" aria-labelledby="roster-heading">
+        <h3 id="roster-heading" class="text-center text-muted">Artist Roster</h3>
+        <div class="row g-4">
+            <!-- Artist 3 with Detailed Description -->
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://placehold.co/300x200" class="card-img-top" alt="Artist 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Artist Name 3</h5>
+                        <p class="card-text">A more in-depth description of Artist 3. Famous for their passion and dedication to the arts.</p>
+                        <a href="booking.html" class="btn btn-primary w-100">Book Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -95,9 +135,6 @@
     <footer class="bg-dark text-white text-center py-3">
         <p>© 2025 Artist Agency. All Rights Reserved.</p>
     </footer>
-
-    <!-- Cloudflare Script for Email Protection -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 
     <!-- Bootstrap JavaScript for interactive components -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
