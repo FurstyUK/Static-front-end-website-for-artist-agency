@@ -25,9 +25,14 @@
 - Join the agency section
 
   
-### Features left to implement
+### Future Enhancements
 
-- Examples or links to feautured work from your artist roster.
+To improve functionality and enhance user experience, the following features are planned for future versions:
+
+- Add individual artist profiles with detailed portfolios.
+- Include testimonials or reviews from previous clients.
+- Implement a search and filter system to allow users to explore artists by genre or location.
+- Integrate a calendar to showcase upcoming artist availability.
 
 ## Technologies that I used
 * HTML
@@ -38,12 +43,15 @@
 
 ## Credit for external Source's that I used
 
-* Source material how to implement the above technolgies from CodeInstitute Web development course.
-* ![https://placehold.co] to make the placeholder imgaes look cleaner and iformative of the size of image the user would need to us.
+* [https://placehold.co] to make the placeholder imgaes look cleaner and iformative of the size of image the user would need to us.
 * De-bugging code errors i couldnt understandand from my Farther who is a software engineer.
-* Stream deck. I set up multiple keybinds to write quicker and easier, each base ie. <a> would have the basic code needed allowing me to put the fill code in once ive pressed the according button on my deck.
-* I used ![jsdelivr.net] for boostrapping.
+* I used [jsdelivr.net] for boostrapping.
 * For Validating i used W3C and Jigsaw.
+* Code Institute – For providing guidance and reference materials.
+* My Father – For assisting with debugging and solving complex coding issues.
+* Stream Deck – For allowing me to create keybind shortcuts that made writing repetitive code elements faster.
+* Community Resources – For continuous inspiration and troubleshooting help.
+  
 ## Testing
 
 I used 2 ways of testing, on visual studio code i enabled 2 extensions to test. 
@@ -103,3 +111,23 @@ artist-agency/
 # Wireframe
 
 ![image](https://github.com/user-attachments/assets/cbc98692-131f-426b-bb6e-bece76db3c0b)
+
+# Screenshots of stock final project
+
+- Index.html page
+![image](https://github.com/user-attachments/assets/37dec674-053d-4d2a-b8e8-1d30eb117365)
+
+- Booking.html page
+  ![image](https://github.com/user-attachments/assets/307754e1-1ce0-4c5a-bfe5-a9eb18fc8dd7)
+  ![image](https://github.com/user-attachments/assets/03b9ff4b-189f-4817-8993-a81c325f978f)
+
+- Join.html page
+  ![image](https://github.com/user-attachments/assets/a5520429-190a-4813-955b-c85d987314b0)
+
+# Final Thoughts
+
+This project was a great opportunity to apply and solidify my knowledge of HTML, CSS, and Bootstrap. It highlights the importance of accessibility, user-friendly design, and clear code structure.
+
+I’m excited to continue enhancing this project by incorporating feedback and exploring more advanced features in future updates.
+
+
